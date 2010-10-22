@@ -1,4 +1,6 @@
 Roster::Application.routes.draw do
+  resources :pets
+
   resources :people
 
   # The priority is based upon order of creation:
